@@ -1,6 +1,6 @@
 {
   "name": "clean-creditcard-validator",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A simple and clean credit card validator.",
   "keywords": [
     "credit card",
