@@ -16,4 +16,9 @@ describe('CreditCard Validator', () => {
         const sut = makeSut()
         expect(sut.validate('')).toBe(false)
     })
+
+    test('should return true if a valid credit card is provided with no spaces', () => {
+        const sut = makeSut()
+        expect(sut.validate('1234123412341234')).toBe(true)
+    })
 })
